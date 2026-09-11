@@ -48,3 +48,6 @@ asyncio.run(main())
 - https://windsock.ai/mcp/llms.txt — machine-readable index
 
 MIT © Windsock
+
+<!-- The official MCP Registry uses this line to verify package ownership. -->
+mcp-name: ai.windsock/windsock

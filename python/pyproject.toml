@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "windsock-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Windsock aircraft intelligence for AI agents: stdio bridge and client helper for the Windsock MCP server (valuations, FAA registry, cost of ownership, market data, reports, logbooks)."
 readme = "README.md"
 license = "MIT"

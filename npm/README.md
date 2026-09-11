@@ -58,3 +58,6 @@ Enterprise unlock reports, diligence, logbooks and tracking.
 ## License
 
 MIT © Windsock
+
+<!-- The official MCP Registry uses this line to verify package ownership. -->
+mcp-name: ai.windsock/windsock

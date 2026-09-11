@@ -1,16 +1,41 @@
 {
   "name": "windsock-mcp",
-  "version": "0.1.0",
-  "description": "Windsock aircraft intelligence for AI agents — stdio bridge to the Windsock MCP server (valuations, FAA registry, cost of ownership, market data, reports, logbooks).",
-  "keywords": ["mcp", "model-context-protocol", "aviation", "aircraft", "valuation", "faa", "registry", "windsock", "claude", "chatgpt", "agents"],
+  "version": "0.1.1",
+  "description": "Windsock aircraft intelligence for AI agents \u2014 stdio bridge to the Windsock MCP server (valuations, FAA registry, cost of ownership, market data, reports, logbooks).",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "aviation",
+    "aircraft",
+    "valuation",
+    "faa",
+    "registry",
+    "windsock",
+    "claude",
+    "chatgpt",
+    "agents"
+  ],
   "homepage": "https://windsock.ai/mcp",
-  "bugs": { "email": "support@windsock.ai" },
+  "bugs": {
+    "email": "support@windsock.ai"
+  },
   "license": "MIT",
   "author": "Windsock <team@windsock.ai> (https://windsock.ai)",
   "type": "module",
-  "bin": { "windsock-mcp": "bin/windsock-mcp.js" },
-  "files": ["bin", "README.md"],
-  "engines": { "node": ">=18" },
-  "dependencies": { "mcp-remote": "^0.1.0" },
-  "publishConfig": { "access": "public" }
+  "bin": {
+    "windsock-mcp": "bin/windsock-mcp.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mcp-remote": "^0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
