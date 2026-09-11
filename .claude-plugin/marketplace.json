@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "windsock",
-      "source": "./plugins/windsock",
+      "source": "./",
       "description": "Aircraft valuations, FAA registry, cost of ownership, market data, reports and logbooks (38 MCP tools) plus an aircraft pre-buy workflow skill.",
       "version": "0.1.0",
       "author": {

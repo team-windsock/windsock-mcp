@@ -30,7 +30,7 @@ Claude Code:
 claude mcp add --transport http windsock https://windsock.ai/mcp
 ```
 
-or install the plugin (adds the server plus an aircraft pre-buy workflow skill):
+or install the plugin (adds the server plus an aircraft pre-buy workflow skill; the repo root follows the [Open Plugins](https://open-plugins.com) layout, so Cursor and other Open Plugins clients can import it too):
 
 ```
 /plugin marketplace add team-windsock/windsock-mcp
