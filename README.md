@@ -15,7 +15,7 @@ hosted; you never run it.
 | Docs | https://windsock.ai/mcp |
 | npm bridge (stdio, OAuth or API key) | [`npm/`](npm/) → `npx windsock-mcp` |
 | Python client + stdio bridge | [`python/`](python/) → `pip install windsock-mcp` |
-| Examples | [`examples/`](examples/) — OpenAI Agents API, Anthropic MCP connector, Claude Code, cURL |
+| Examples | [`examples/`](examples/) — OpenAI Agents API, Anthropic MCP connector, LangChain, LlamaIndex, Claude Code, cURL |
 | Listed on | [Smithery](https://smithery.ai/servers/team-3go2/windsock) · official MCP Registry `ai.windsock/windsock` · ChatGPT app |
 
 ## One-click install
