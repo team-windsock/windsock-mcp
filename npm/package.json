@@ -1,6 +1,6 @@
 {
   "name": "windsock-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Windsock aircraft intelligence for AI agents \u2014 stdio bridge to the Windsock MCP server (valuations, FAA registry, cost of ownership, market data, reports, logbooks).",
   "keywords": [
     "mcp",
@@ -42,5 +42,6 @@
     "type": "git",
     "url": "git+https://github.com/team-windsock/windsock-mcp.git",
     "directory": "npm"
-  }
+  },
+  "mcpName": "ai.windsock/windsock"
 }
