@@ -1,0 +1,20 @@
+{
+  "name": "windsock",
+  "version": "0.1.0",
+  "description": "Windsock aircraft intelligence: 38 MCP tools (valuations, FAA registry, cost of ownership, market data, reports, logbooks) plus an aircraft pre-buy workflow skill.",
+  "author": {
+    "name": "Windsock",
+    "email": "team@windsock.ai",
+    "url": "https://windsock.ai"
+  },
+  "homepage": "https://windsock.ai/mcp",
+  "repository": "https://github.com/team-windsock/windsock-mcp",
+  "license": "MIT",
+  "keywords": [
+    "aviation",
+    "aircraft",
+    "valuation",
+    "faa",
+    "mcp"
+  ]
+}

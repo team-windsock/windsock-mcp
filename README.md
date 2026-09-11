@@ -18,6 +18,27 @@ hosted; you never run it.
 | Examples | [`examples/`](examples/) — OpenAI Agents API, Anthropic MCP connector, Claude Code, cURL |
 | Listed on | [Smithery](https://smithery.ai/servers/team-3go2/windsock) · official MCP Registry `ai.windsock/windsock` · ChatGPT app |
 
+## One-click install
+
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Windsock-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](vscode:mcp/install?%7B%22name%22%3A%20%22windsock%22%2C%20%22type%22%3A%20%22http%22%2C%20%22url%22%3A%20%22https%3A%2F%2Fwindsock.ai%2Fmcp%22%7D)
+[![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Windsock-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](vscode-insiders:mcp/install?%7B%22name%22%3A%20%22windsock%22%2C%20%22type%22%3A%20%22http%22%2C%20%22url%22%3A%20%22https%3A%2F%2Fwindsock.ai%2Fmcp%22%7D)
+[![Install in Cursor](https://img.shields.io/badge/Cursor-Install_Windsock-000000?style=flat-square)](cursor://anysphere.cursor-deeplink/mcp/install?name=windsock&config=eyJ1cmwiOiAiaHR0cHM6Ly93aW5kc29jay5haS9tY3AifQ==)
+
+Claude Code:
+
+```bash
+claude mcp add --transport http windsock https://windsock.ai/mcp
+```
+
+or install the plugin (adds the server plus an aircraft pre-buy workflow skill):
+
+```
+/plugin marketplace add team-windsock/windsock-mcp
+/plugin install windsock@windsock
+```
+
+Every client above signs you in with OAuth on first use. Headless agents use an API key instead — see the docs.
+
 ## Quick start (any MCP client)
 
 Remote server, no install:

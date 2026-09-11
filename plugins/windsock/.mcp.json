@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "windsock": {
+      "type": "http",
+      "url": "https://windsock.ai/mcp"
+    }
+  }
+}
