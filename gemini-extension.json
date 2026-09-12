@@ -1,0 +1,10 @@
+{
+  "name": "windsock",
+  "version": "1.0.0",
+  "description": "Aircraft intelligence for general aviation: valuations with confidence bands, FAA registry lookup by tail number, cost of ownership, comparable aircraft, airworthiness directives and STCs, and market metrics. Free tier; sign in with OAuth on first use or set WINDSOCK_API_KEY.",
+  "mcpServers": {
+    "windsock": {
+      "httpUrl": "https://windsock.ai/mcp"
+    }
+  }
+}
